@@ -1,0 +1,121 @@
+html, body 
+	{
+	height:130%;
+	margin:0; 
+	padding:0;
+	background-image:url('images/cigla.jpg');
+	}
+#main_table
+	{
+	position:relative;
+	padding:1px;
+	top:-180%;
+	left:0%;
+	margin:none;
+	background-image:url('images/blue2.jpg');
+	border-radius: 6px;
+	}
+#main_table tr
+	{
+	height:20px;
+	}
+#main_table td
+	{
+	/*border:1px solid blue;*/
+	border-top:none;
+	border-bottom:none;
+	border-left:none;
+	border-right:none;
+	/*width:140px;*/
+	}
+#unutrasnja_tabela
+	{
+	padding:0px;
+	margin:none;
+	}
+#unutrasnja_tabela td{border:none;}
+#unutrasnja_tabela_2 td{border:none;}
+#logo
+	{
+	background-image:url('images/logo.png');
+	background-size:180px 100px;
+	width:170px;
+	height:100px;
+	}
+#search
+	{
+	color:white;
+	text-align:left;
+	font-weight:bold;
+	padding-bottom:0px;
+	}
+#naziv
+	{
+	font-family:Comic Sans MS,Arial;
+	color:orange;
+	font-size:50px;
+	}
+#login,#signup
+	{
+	padding-top:24px;
+	}
+#search_results
+	{
+	position:relative;
+	left:13%;
+	top:6%;
+	}
+.result_pic
+	{
+	text-align:center;
+	width:120px;
+	border-right:none;
+	border-bottom:solid 2px white;
+	}
+.result_text
+	{
+	width:800px;
+	padding-left:15px;
+	border-bottom:solid 2px white;
+	padding-top:10px;
+	}
+#search_results tr
+	{
+	height:100px;
+	}
+#search_results img
+	{
+	width:75px;
+	height:75px;
+	/*greynote.png*/
+	}
+.horizontalna
+	{
+	position:relative;
+	top:-230px;
+	left:-20px;
+	width:660px;
+	z-index:2;
+	}
+.vertikalna_1,.vertikalna_2	
+	{
+	position:relative;
+	width:1px;
+	height:180px;
+	z-index:2;
+	}
+.vertikalna_1{top:40px;left:-180px;}
+.vertikalna_2{top:-150px;left:130px;}
+.mainpanel
+	{
+	display:block;
+	position:relative;
+	top:0px;
+	
+	/*ovo je bitno,da bude procentna vrednost,zbog razlicitih browser-a i razlicitih rezolucija ekrana;sve ostale komponente u ovom div-u
+	imaju position:relative,relativne u odnosu na div;mogu i sve komponente da se skupe u jedan div,pa sve relative position...*/
+	left:20%;
+	/*background-color:yellow;*/
+	width:750px;
+	height:200px;
+	}
