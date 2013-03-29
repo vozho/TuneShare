@@ -67,7 +67,7 @@
 		</div>		
 		<table class="comments" cellpadding="5">
 			<tr><td><p style="color:white;">Comments:</p></td></tr>
-			<tr><td><div></div></td></tr>
+			<tr><td><div>Write a new comment:</div></td></tr>
 			<tr><td><p style="color:#9999DD;position:relative;left:30px;">Author Name</p><div class="comment_box"/></td></tr>
 			<tr><td><p style="color:#9999DD;position:relative;left:30px;">Author Name</p><div class="comment_box"/></td></tr>
 		</table>
