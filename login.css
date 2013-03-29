@@ -1,0 +1,25 @@
+.logpanel
+	{
+	position:absolute;
+	left:62%;
+	top:35%;
+	background-color:skyblue;
+	border:3px groove skyblue;
+	border-radius: 4px;
+	width:240px;
+	}
+.logpanel td
+	{
+	width:90px;
+	}
+.signuppanel
+	{
+	position:absolute;
+	background-color:lightblue;
+	border:3px groove lightblue;
+	border-radius: 4px;
+	left:25%;
+	top:30%;
+	width:460px;
+	}
+.drugi_red{width:50px;}

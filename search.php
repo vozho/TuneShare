@@ -6,39 +6,36 @@
 		<link rel="stylesheet" type="text/css" href="search.css"></link>
 	</head>
 	<body>
-	<div class="mainpanel">		
-		<hr class="vertikalna_1"/>
-		<hr class="vertikalna_2"/>
-		<hr class="horizontalna"/>
-		<table class="main_table" id="main_table"  border="1" cellspacing="5" cellpadding="15">
-			<tr id="main_tr">
-				<td id="logo" style="width:150px"></td>
-				<td><p id="naziv">Tune Share</p></td>
-				<td style="padding-bottom:70px;text-align:right;">Welcome,<a href="login.php" style="font-weight:bold">Guest</a></td>
-			</tr>
-			<tr id="main_tr">
-				<td>
-					<p style="text-align:center;padding-top:15px;"><a href="index.php" value="Home">Home</a></p></td>
-				<td style="padding:10px 10px 10px 10px;">
-					<table id="unutrasnja_tabela" border="0" cellspacing="0" cellpadding="2">
-						<tr><td><p id="search">&nbsp;Search</p></td></tr>
-						<tr>
-							<td><input type="text"/></td>
-							<td><a href="#"><img id="magnifier" src="images/magnifier.png" width="20px" height="20px"></a></td>
-							<td>&nbsp;<input type="button" value="advanced" onclick="location.href='search.php'"/></td>
-						</tr>
-					</table>
-				</td>
-				<td>
-					<table id="unutrasnja_tabela_2" cellspacing="2">
-						<tr>
-							<td id="login"><input type="button" value="Login/Logout" style="color:green" onclick="location.href='login.php'"/></td>
-							<td id="signup"><input type="button" value="Sign Up" style="color:blue" onclick="location.href='login.php'"/></td>
-						</tr>
-					</table>
-				</td>
-			</tr>
-		</table>
-	</div>
+	<div id="mainpanel">		
+			<table id="main_table" border="0" cellspacing="0" cellpadding="0" align="center">
+				<tr>
+					<td align="left" style="width:130px"><img id="logo" src="images/logo.png"></td>
+					<td style="width:180px;"><p style="text-align:center;"><a href="index.php" value="Home">Home</a></p></td>
+					<td style="width:300px;" align="center"><p id="naziv">Tune Share</p></td>
+					<td style="width:400px;" align="center">
+						<table id="search_tabela" border="0" cellspacing="0" cellpadding="2">
+							<tr>
+								<td colspan="3"><p id="search" style="position:relative;left:-5px;">Search:</p></td>
+								<td><input type="text"/></td>
+								<td><a href="#"><img id="magnifier" src="images/magnifier.png" width="20px" height="20px"></a></td>
+								<td><input type="button" value="advanced" onclick="location.href='search.php'"/></td>
+							</tr>
+						</table>
+					</td>
+					<td align="right">
+						<table id="korisnik" border="0" cellspacing="0">
+							<tr>
+								<td style="text-align:right;" colspan="2">Welcome,<a href="login.php" style="font-weight:bold">Guest</a></td>
+							</tr>
+							<tr><td align="right">
+								<input type="button" value="Login/Logout" style="color:green" onclick="location.href='login.php'"/>
+								<input type="button" value="Sign Up" style="color:blue" onclick="location.href='login.php'"/>
+							</tr></td>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</div>
+	
 	</body>
 </html>
