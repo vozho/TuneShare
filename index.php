@@ -13,7 +13,7 @@
 				<tr id="main_tr">
 					<td id="logo" style="width:150px"></td>
 					<td><p id="naziv">Tune Share</p></td>
-					<td style="padding-bottom:70px;text-align:right;">Welcome,<a href="#" style="font-weight:bold">Guest</a></td>
+					<td style="padding-bottom:70px;text-align:right;">Welcome,<a href="login.php" style="font-weight:bold">Guest</a></td>
 				</tr>
 				<tr id="main_tr">
 					<td>
@@ -24,15 +24,15 @@
 							<tr>
 								<td><input type="text"/></td>
 								<td><a href="#"><img id="magnifier" src="images/magnifier.png" width="20px" height="20px"></a></td>
-								<td>&nbsp;<input type="button" value="advanced"/></td>
+								<td>&nbsp;<input type="button" value="advanced" onclick="location.href='search.php'"/></td>
 							</tr>
 						</table>
 					</td>
 					<td>
 						<table id="unutrasnja_tabela_2" cellspacing="2">
 							<tr>
-								<td id="login"><input type="button" value="Login/Logout" style="color:green"/></td>
-								<td id="signup"><input type="button" value="Sign Up" style="color:blue"/></td>
+								<td id="login"><input type="button" value="Login/Logout" style="color:green" onclick="location.href='login.php'"/></td>
+								<td id="signup"><input type="button" value="Sign Up" style="color:blue" onclick="location.href='login.php'"/></td>
 							</tr>
 						</table>
 					</td>

@@ -2,8 +2,8 @@
 	<head>
 		<title>TuneShare</title>
 		<link rel="stylesheet" type="text/css" href="main.css"></link>
-		<link rel="stylesheet" type="text/css" href="songinfo.css"></link>
 		<link rel="shortcut icon" href="images/fork.png" type="image/png" />	
+		<link rel="stylesheet" type="text/css" href="songinfo.css"></link>
 	</head>
 	<body>
 		<div class="mainpanel">		
@@ -67,7 +67,7 @@
 		</div>		
 		<table class="comments" cellpadding="5">
 			<tr><td><p style="color:white;">Comments:</p></td></tr>
-			<tr><td><div>Write a new comment:</div></td></tr>
+			<tr><td><div></div></td></tr>
 			<tr><td><p style="color:#9999DD;position:relative;left:30px;">Author Name</p><div class="comment_box"/></td></tr>
 			<tr><td><p style="color:#9999DD;position:relative;left:30px;">Author Name</p><div class="comment_box"/></td></tr>
 		</table>
