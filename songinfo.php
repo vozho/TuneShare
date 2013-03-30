@@ -8,9 +8,23 @@
 	</head>
 	<body>
 		<div id="mainpanel"><?php include 'mainmenu.php'; ?></div>
-		
 		<div class="songinfopanel">		
 			<div class="songinfopanelboja"></div>
+			<div style="position:relative;left:450px;top:-330px;">
+				<div style="left:-20px;color:white">
+				<input type="button" value="Like"/>
+				<input type="button" value="Dislike"/><br/>
+				Likes:0 &nbsp;&nbsp;&nbsp;Dislikes:0
+					<!--Rate this song:
+					&nbsp;&nbsp;&nbsp;<select style="position:relative;left:-10px;">
+						<option value="" >1</option>
+						<option value="" >2</option>
+						<option value="" selected="selected">3</option>
+						<option value="" >4</option>
+						<option value="" >5</option>
+				</select>-->
+				</div>
+			</div>
 			<table class="songinfotable" border="0">
 				<tr><td><div class="slicicaokvir"><img class="slicica" src="images/greynote.png"/></div></td></tr>
 				<tr><td><input class="download_dugmici" type="button" value="get as MP3"></td></tr>
