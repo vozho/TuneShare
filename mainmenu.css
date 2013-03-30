@@ -1,0 +1,102 @@
+html, body 
+	{
+	height:130%;
+	margin:0; 
+	background-image:url('images/cigla.jpg');
+	}
+#mainpanel
+	{
+	position:relative;
+	top:1%;
+	left:5%;
+	width:1200px;
+	height:200px;
+	}
+#main_table
+	{
+	position:relative;
+	width:1100px;
+	height:45px;
+	padding:0px;
+	top:20%;
+	left:0%;
+	margin:none;
+	background-image:url('images/blue2.jpg');
+	border-radius: 6px;
+	border:2px groove lightblue;
+	}
+#main_table tr
+	{
+	height:30px;
+	}
+.main_table td
+	{
+	width:300px;
+	height:20px;
+	}
+#logo
+	{
+	background-size:180px 100px;
+	width:130px;
+	height:50px;
+	}
+#naziv
+	{
+	font-family:Comic Sans MS,Arial;
+	color:orange;
+	font-size:25px;
+	}
+#search_tabela
+	{
+	padding:0px;
+	margin:none;
+	}
+#search_tabela  tr{height:10px;}
+#korisnik
+	{
+	width:270px;
+	}
+#korisnik tr
+	{
+	height:24px;
+	}
+#search
+	{
+	color:white;
+	text-align:left;
+	font-weight:bold;
+	padding-bottom:0px;
+	}
+#search_results
+	{
+	position:relative;
+	left:13%;
+	border-right:none;
+	}
+.result_pic
+	{
+	text-align:center;
+	width:120px;
+	border-right:none;
+	border-bottom:solid 2px white;
+	}
+.result_text
+	{
+	width:800px;
+	padding-left:15px;
+	border-bottom:solid 2px white;
+	padding-top:10px;
+	}
+#search_results tr
+	{
+	height:100px;
+	}
+#search_results img
+	{
+	width:75px;
+	height:75px;
+	}
+#tacke
+	{
+	width:2px;
+	}
