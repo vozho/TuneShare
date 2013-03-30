@@ -1,18 +1,28 @@
+/*Autor:Vojislav Nikolic 472/09*/
 .songinfopanel
 	{
 	position:relative;
 	left:10%;
 	top:-2%;
-	width:650px;
+	width:600px;
 	height:350px;
 	border:3px groove orange;
 	border-radius:15px;
+	}
+.songinfopanelboja
+	{
+	position:relative;
+	left:0%;
+	width:600px;
+	height:350px;
 	background-color:skyblue;
+	border-radius:15px;
+	opacity:0.1;
 	}
 .songinfotable
 	{
 	position:relative;
-	top:40px;
+	top:-300px;
 	left:50px;
 	width:200px;
 	}
@@ -23,7 +33,7 @@
 	top:30px;*/
 	width:110px;
 	height:110px;
-	border:2px groove blue;
+	border:5px groove skyblue;
 	/*border-bottom:none;*/
 	border-radius:5px;
 	}
@@ -59,19 +69,19 @@
 .comments
 	{
 	position:relative;
-	top:-37%;
+	top:-35%;
 	left:60%;
 	opacity:0.8;
 	font-family:Tahoma;
 	}
 .comment_box
 	{
-	width:400px;
+	width:300px;
 	height:80px;
 	position:relative;
 	left:30px;
 	background-color:steelblue;
-	box-shadow: 2px 2px 8px #ffffff;
-	-webkit-box-shadow:2px 2px 8px #ffffff;
+	box-shadow: 1px 1px 5px #AAAAAA;
+	-webkit-box-shadow:1px 1px 5px #AAAAAA;
 	border-radius:7px;
 	}

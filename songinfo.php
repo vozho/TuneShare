@@ -1,3 +1,4 @@
+<!--Autor:Vojislav Nikolic 472/09-->
 <html>
 	<head>
 		<title>TuneShare</title>
@@ -7,7 +8,9 @@
 	</head>
 	<body>
 		<div id="mainpanel"><?php include 'mainmenu.php'; ?></div>
+		
 		<div class="songinfopanel">		
+			<div class="songinfopanelboja"></div>
 			<table class="songinfotable" border="0">
 				<tr><td><div class="slicicaokvir"><img class="slicica" src="images/greynote.png"/></div></td></tr>
 				<tr><td><input class="download_dugmici" type="button" value="get as MP3"></td></tr>
@@ -24,6 +27,7 @@
 				</td></tr>
 			</table>
 		</div>		
+		
 		<table class="comments" cellpadding="5">
 			<tr><td><p style="color:white;">Comments:</p></td></tr>
 			<tr><td><div></div></td></tr>

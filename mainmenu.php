@@ -1,3 +1,4 @@
+<!--Autor:Vojislav Nikolic 472/09-->
 <?php
 //kod za glavni meni,ucitava se u ostalim stranicama sa "php include"
 echo "<table id='main_table' border='0' cellspacing='0' cellpadding='0' align='center'>

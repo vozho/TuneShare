@@ -1,0 +1,23 @@
+/*Autor:Vojislav Nikolic 472/09*/
+.search_table
+	{
+	position:relative;
+	top:-40px;
+	left:20%;
+	background-color:transparent;
+	border-radius: 6px;
+	opacity:0.9;
+	color:white;
+	}
+.search_table tr
+	{
+	width:500px;
+	}
+.tekstovi
+	{
+	width:200px;
+	}
+#tesktovi
+	{
+	width:200px;
+	}

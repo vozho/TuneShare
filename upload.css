@@ -1,0 +1,41 @@
+/*Autor:Vojislav Nikolic 472/09*/
+#upload_div
+	{
+	position:relative;
+	top:-5%;
+	left:12%;
+	width:800px;
+	height:230px;
+	/*border:4px groove skyblue;*/
+	/*background-color:#7777CC;*/
+	border-radius:10px;
+	opacity:0.85;
+	}
+#upload_tabela
+	{
+	position:relative;
+	left:30px;
+	top:25px;
+	color:#FFFFFF;
+	width:500px;
+	}
+#upload_tabela tr
+	{
+	
+	}
+#upload_tabela td
+	{
+	width:100px;
+	border:2px groove green;
+	}
+#info_panel
+	{
+	position:relative;
+	top:-73%;
+	left:68%;
+	color:white;
+	}
+#info_panel td
+	{
+	width:120px;
+	}
