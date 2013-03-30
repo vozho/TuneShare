@@ -1,43 +1,14 @@
 <html>
 	<head>
 		<title>TuneShare</title>
-		<link rel="stylesheet" type="text/css" href="main.css"></link>
+		<link rel="stylesheet" type="text/css" href="mainmenu.css"></link>
 		<link rel="shortcut icon" href="images/fork.png" type="image/png" />	
 		<link rel="stylesheet" type="text/css" href="login.css"></link>
 	</head>
 	<body>
-	<div id="mainpanel">		
-			<table id="main_table" border="0" cellspacing="0" cellpadding="0" align="center">
-				<tr>
-					<td align="left" style="width:130px"><img id="logo" src="images/logo.png"></td>
-					<td style="width:180px;"><p style="text-align:center;"><a href="index.php" value="Home">Home</a></p></td>
-					<td style="width:300px;" align="center"><p id="naziv">Tune Share</p></td>
-					<td style="width:400px;" align="center">
-						<table id="search_tabela" border="0" cellspacing="0" cellpadding="2">
-							<tr>
-								<td colspan="3"><p id="search" style="position:relative;left:-5px;">Search:</p></td>
-								<td><input type="text"/></td>
-								<td><a href="#"><img id="magnifier" src="images/magnifier.png" width="20px" height="20px"></a></td>
-								<td><input type="button" value="advanced" onclick="location.href='search.php'"/></td>
-							</tr>
-						</table>
-					</td>
-					<td align="right">
-						<table id="korisnik" border="0" cellspacing="0">
-							<tr>
-								<td style="text-align:right;" colspan="2">Welcome,<a href="login.php" style="font-weight:bold">Guest</a></td>
-							</tr>
-							<tr><td align="right">
-								<input type="button" value="Login/Logout" style="color:green" onclick="location.href='login.php'"/>
-								<input type="button" value="Sign Up" style="color:blue" onclick="location.href='login.php'"/>
-							</tr></td>
-						</table>
-					</td>
-				</tr>
-			</table>
-		</div>
+	<div id="mainpanel"><?php include 'mainmenu.php'; ?></div>
 	<div class="signuppanel">
-		<hr style="position:relative;top:292px;width:90%;"/>
+		<hr style="position:relative;top:315px;width:90%;"/>
 		<table cellpadding="4" border="0">
 			<tr>
 				<td>Name</td>
@@ -68,6 +39,7 @@
 				<td>Email Address:</td>
 				<td><input type="text"></td>
 			</tr>
+			<tr style="height:30px;"></tr>
 			<tr>
 				<td>Type Captcha:</td>
 				<td colspan="2"><div style="width:200px;height:50px;background-color:green;"/></td>
